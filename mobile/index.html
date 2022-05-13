@@ -1,0 +1,51 @@
+<html lang='en'>
+    <head>
+      <title>
+        AstroSocial
+      </title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset='utf-8' />
+  <script src="https://cdn.tailwindcss.com"></script>  
+  <script src="server.cjs" ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gray: '#181818',
+            blue: '#3E537F',
+            gray1: '#2C2C2C'
+          },
+          fontFamily: {
+            'poppins': ['Poppins', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  </head>
+  <body class="h-screen bg-gray bg-[url('./assets/bg.png')]">
+    <div class="ml-3 mb-1 fixed items-center inline-block ">
+      <p class="mfont-poppins mt-3 text-white text-600 body-font inline-block font-semibold text-2xl">AstroSocial</p>
+    </div>
+    <div class="h-screen flex flex-col items-center justify-center m--50 z-50">
+        <span class="self-center font-poppins text-white font-bold text-2xl">Chat, Share,<a class="text-blue"> AstroSocial</a></span>
+        <p class="text-center m-10 font-regular font-poppins text-white text-small">Welcome to AstroSocial. We are not yet released - join our Discord for updates</p> 
+        <div class=" flex flex-col items-center justify-center">
+          <p class="text-center m-10 font-regular font-poppins text-white text-small">Stay connected:</p>
+          <div class="flex">
+            <a href="https://discord.gg/nM8ugwQ9H8">
+                <img src="./assets/Discord.png" class="ml-4 mr-1 w-13 h-10">
+              </a>
+              <a href="https://tiktok.com/@astrohavensocial">
+                <img src="./assets/TikTok.png" class="ml-4 w-9.5 h-10">
+              </a>
+            <br>
+          </div>
+        </div> 
+    </div>
+  </body>
+  </html>
+  </html> 
